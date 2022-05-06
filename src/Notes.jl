@@ -1,4 +1,4 @@
-module Blog
+module Notes
 
 greet() = print("Hello World!")
 
