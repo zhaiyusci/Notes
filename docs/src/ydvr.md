@@ -1,4 +1,4 @@
-# `ydvr` A C++ implement of DVR method
+# `ydvr`: A C++ implement of DVR method
 
 [DVR](https://en.wikipedia.org/wiki/Pseudo-spectral_method) method is an important method to deal with the nuclear motion problem.  In the old days, Fortran is used to write almost all the scientific computation codes.  However, Fortran is dead.
 
