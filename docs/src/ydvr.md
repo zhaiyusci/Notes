@@ -1,11 +1,8 @@
-Title: ydvr: A C++ implement of DVR method
-Date: 2018-01-07 16:10
-Category: Science
-Authors: Yu Zhai
+# `ydvr` A C++ implement of DVR method
 
 [DVR](https://en.wikipedia.org/wiki/Pseudo-spectral_method) method is an important method to deal with the nuclear motion problem.  In the old days, Fortran is used to write almost all the scientific computation codes.  However, Fortran is dead.
 
-Recently, people has been able to code in more powerful and popular language like Python and Matlab.  That's good.  But personally I do not like Matlab because it is not a open standard and python because of the indent syntax and the difference between py2 and py3.
+Recently, people has been able to code in more powerful and popular language like Python and Matlab.  That's good.  But personally I do not like Matlab because it is not a open standard or python because of the indent syntax and the difference between py2 and py3.
 
 C++, however, is an 'old' language but still very important these days.  I mean, you can still find a lot of scientific libraries in C++ and because it is one of the most important systematical language it cannot die in the near future.  C++ is object-oriented so it is easier to be reused by other guys.
 
