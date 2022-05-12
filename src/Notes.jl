@@ -1,5 +1,1 @@
-module Notes
-
-greet() = print("Hello World!")
-
-end # module
+module Notes end # A fake module

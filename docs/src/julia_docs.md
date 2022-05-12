@@ -18,4 +18,6 @@ Documenter.jl 很好，但还是有一些坑可能会被踩中。但还好坑比
 首先安装 Julia ，这没有什么可以说明的，在[官方网站](https://julialang.org/)上下载就好了。但是如果你是 Windows用户，你最好是在你的WSL里装 Linux 的版本，因为下文我会用 make 来生成 文件，如果是在 Windows 下这些工具又要配一次，很麻烦。
 
 安装好 Julia 后，进入它的REPL,按下 `]` (右方括号），就进入了它的包管理器，然后打 `add Documenter`，回车。等等网络，主工具就安装好了。
-另外有个小工具`ghp-import`，可以用也管理器安装，如在Manjaro下，`pacman -S python-ghp-import`。
+
+~~另外有个小工具`ghp-import`，可以用也管理器安装，如在Manjaro下，`pacman -S python-ghp-import`。~~
+
