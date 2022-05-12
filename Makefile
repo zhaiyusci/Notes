@@ -1,11 +1,13 @@
-.PHONY: deploy
 deploy: docs/build
-	ghp-import -m "$(shell date)" docs/build
-	git push origin gh-pages
-	git add .
-	git commit -a -m "$(shell date)"
-	git push origin main
+	rm -rf /tmp/gh-pages
+	git worktree add -f /tmp/gh-pages gh-pages
+	cp -rp docs/build/* /tmp/gh-pages/
+	cd /tmp/gh-pages && \
+		git add -A && \
+		git commit -m "deployed on $(shell date) by ${USER}" && \
+		git push origin gh-pages
+	touch deploy
 
-docs/build: docs/src docs/make.jl
+docs/build: docs/src/* docs/make.jl
 	julia --project=@. docs/make.jl
 
